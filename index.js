@@ -5,7 +5,7 @@ const canvas = createCanvas(800,400)
 const ctx = canvas.getContext("2d")
 const mongoose = require("mongoose")
 require("dotenv").config();
-mongoose.connect("mongodb://127.0.0.1:27017/myapp").then(()=>{
+mongoose.connect(process.env.MONGODB_URI).then(()=>{
     console.log("Connected to db");
     
 }).catch((err)=>{
