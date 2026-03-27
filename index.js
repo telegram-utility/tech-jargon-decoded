@@ -48,11 +48,12 @@ const techJargons = [
   "Prompt Engineering",
   "RAG (Retrieval Augmented Generation)",
   "Vector Database",
+      "Big Data",
   "Embeddings",
   "Fine Tuning",
   "MLOps",
   "Data Science",
-  "Big Data",
+
   "Cloud Computing",
   "Serverless",
   "Edge Computing",
