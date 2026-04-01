@@ -57,10 +57,11 @@ const techJargons = [
   "Cloud Computing",
   "Serverless",
   "Edge Computing",
-  "Web3",
+
   "Blockchain",
   "Smart Contracts",
   "Microservices",
+      "Web3",
   "System Design",
   "Scalability",
   "High Availability",
