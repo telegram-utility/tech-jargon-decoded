@@ -39,7 +39,8 @@ Rules:
 - give in html format which is suitable for telegram message and characters should be less than 800
 `
 const techJargons = [
-  "Artificial Intelligence", "Machine Learning",
+  "Artificial Intelligence",
+  "Machine Learning",
   "Deep Learning", "Neural Network",
   "Model", "Algorithm",
   "Dataset", "Training Data",
@@ -144,7 +145,6 @@ const techJargons = [
   "Federated Learning", "AI Regulation",
   "Energy Use of AI", "AI Ethics",
   "Scalable Oversight", "Existential Risk"
-
 ];
 
 const styles = [
