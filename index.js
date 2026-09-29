@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGODB_URI).then(()=>{
 })
 const app = express();
 const {Counter} = require("./Counter.js")
-const PORT = 5000;
+const PORT = process.env.PORT ||5000;
 const {GoogleGenAI} = require("@google/genai")
 const ai = new GoogleGenAI({apiKey:process.env.GEMINI_API_KEY});
 const TelegramBot = require('node-telegram-bot-api');
