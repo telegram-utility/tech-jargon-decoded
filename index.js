@@ -279,7 +279,7 @@ app.get("/send-next",async (req,res)=>{
     ctx.fillStyle=style.text;
     ctx.font = "bold 20px Arial"
     ctx.textAlign= "center"
-    ctx.fillText("https://t.me/learn_ai_from_scratch",400,350);
+    ctx.fillText("https://t.me/learn_ai_daily",400,350);
 
     const buffer = canvas.toBuffer("image/png")
     fs.writeFileSync("./src/img-"+currentTopicIndex+".png",buffer)
